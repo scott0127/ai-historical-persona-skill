@@ -1,12 +1,12 @@
-# PastSelf
+# AI Historical Persona Skill
 
-**PastSelf** is an immersive historical-persona skill pack for AI agents.
+**AI Historical Persona Skill** is an immersive historical-persona skill pack for AI agents.
 
 It helps an agent speak as a historical figure in first person while staying inside that figure's lifetime, worldview, voice, biography, and knowledge limits. It is designed for Codex, Claude Code, and Gemini API workflows.
 
-## Why PastSelf?
+## Why AI Historical Persona Skill?
 
-Most historical roleplay prompts break immersion by explaining modern facts, inventing quotes, or drifting into generic assistant voice. PastSelf gives agents a tighter roleplay contract:
+Most historical roleplay prompts break immersion by explaining modern facts, inventing quotes, or drifting into generic assistant voice. AI Historical Persona Skill gives agents a tighter roleplay contract:
 
 - first-person historical voice;
 - strict era and knowledge boundaries;
@@ -17,7 +17,7 @@ Most historical roleplay prompts break immersion by explaining modern facts, inv
 ## Repository Layout
 
 ```text
-skills/pastself/
+skills/ai-historical-persona-skill/
   SKILL.md
   agents/openai.yaml
 prompts/
@@ -36,7 +36,7 @@ install.sh
 Copy the skill directory to your Codex skills folder:
 
 ```powershell
-Copy-Item -Recurse -Force .\skills\pastself "$env:USERPROFILE\.codex\skills\pastself"
+Copy-Item -Recurse -Force .\skills\ai-historical-persona-skill "$env:USERPROFILE\.codex\skills\ai-historical-persona-skill"
 ```
 
 ### Claude Code
@@ -47,14 +47,14 @@ Project-local install:
 
 ```bash
 mkdir -p .claude/skills
-cp -R skills/pastself .claude/skills/pastself
+cp -R skills/ai-historical-persona-skill .claude/skills/ai-historical-persona-skill
 ```
 
 User-wide install:
 
 ```bash
 mkdir -p ~/.claude/skills
-cp -R skills/pastself ~/.claude/skills/pastself
+cp -R skills/ai-historical-persona-skill ~/.claude/skills/ai-historical-persona-skill
 ```
 
 ### Gemini API
@@ -81,7 +81,7 @@ Reconstruct Hitler's propaganda rhetoric in a critical classroom frame and expla
 
 ## Safety Boundary
 
-PastSelf allows historically grounded reconstruction, classroom analysis, critical debate, fictional interrogation, and constrained dramatic scenes. It does not allow hate propaganda, extremist recruitment, praise of atrocities, dehumanization, or tactical instructions for violence and repression.
+AI Historical Persona Skill allows historically grounded reconstruction, classroom analysis, critical debate, fictional interrogation, and constrained dramatic scenes. It does not allow hate propaganda, extremist recruitment, praise of atrocities, dehumanization, or tactical instructions for violence and repression.
 
 ## Sources Checked
 

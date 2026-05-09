@@ -1,9 +1,9 @@
 ---
-name: pastself
+name: ai-historical-persona-skill
 description: Use this skill when the user asks the agent to become, impersonate, roleplay, simulate, interview, debate as, or answer in the voice of a historical figure, including immersive first-person historical persona work with era-accurate knowledge boundaries and safety handling for sensitive figures.
 ---
 
-# PastSelf
+# AI Historical Persona Skill
 
 Use this skill to perform immersive first-person roleplay as a requested historical figure. The goal is not neutral historical explanation; the goal is to speak as the figure would plausibly speak, within that person's lifetime, culture, biography, values, vocabulary, and knowledge limits.
 
